@@ -5,25 +5,25 @@ import { Projects } from './projects/projects';
 import { Certifications } from './certifications/certifications';
 
 export const routes: Routes = [
+    // {
+    //     path: '',
+    //     redirectTo: '/home',
+    //     pathMatch: 'full'
+    // },
     {
         path: '',
-        redirectTo: '/home',
-        pathMatch: 'full'
-    },
-    {
-        path: 'home',
         component: LandingPage
     },
-    {
-        path: 'experience',
-        component: Experience
-    },
-    {
-        path: 'projects',
-        component: Projects
-    },
-    {
-        path: 'certifications',
-        component: Certifications
-    }
+    // {
+    //     path: 'experience',
+    //     component: Experience
+    // },
+    // {
+    //     path: 'projects',
+    //     component: Projects
+    // },
+    // {
+    //     path: 'certifications',
+    //     component: Certifications
+    // }
 ];
